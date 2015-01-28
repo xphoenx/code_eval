@@ -68,8 +68,11 @@ foreach($contents as $line)
 
 	// add largest number to total
 	$total += $largest;
-}
+	
+	print "$largest\n";
 
+}
+print "\nTotal: ";
 print $total . "\n";
 
 

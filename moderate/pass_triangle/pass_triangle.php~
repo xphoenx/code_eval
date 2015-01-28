@@ -13,11 +13,11 @@ function largest_adjacent($index, $numbers)
 	$ret[0] = 0;
 	$ret[1] = 0;
 
-	if (isset($numbers[$index-1]) && $numbers[$index-1] > $ret[0])
+	/*if (isset($numbers[$index-1]) && $numbers[$index-1] > $ret[0])
 	{
 		$ret[0] = $numbers[$index-1];
 		$ret[1] = $index - 1; 
-	}
+	}*/
 	if ($numbers[$index] > $ret[0])
 	{
 		$ret[0] = $numbers[$index];
